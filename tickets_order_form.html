@@ -38,7 +38,40 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<!-- The form starts here... -->
-				
+				<form name="order_form" id="order_form" action="place_order.html" method="post">
+				<fieldset>
+					<legend>Member Information</legend>
+				</fieldset>
+				<fieldset>
+					<legend>Ordering Information</legend>
+					<label for="event">Event:</label>
+					<select name="event">
+						<option value="cookie">Cookie Decoration Contest</option>
+						<option value="tree">Tree Decoration Contest</option>
+						<option value="gift">Gift of Light Ride-Along</option>
+						<option value="breakfast">Breakfast with Santa</option>
+					</select><br>
+					<label for="ordertype">Order Type:</label>
+					<select name="ordertype">
+						<option value="member">Member Package</option>
+						<option value="donor">Donor Package</option>
+						<option value="single">Single Tickets</option>
+					</select><br>
+					<label for="numberoftickets">Number of Tickets:</label>
+					<input type="text" name="numberoftickets" id="numberoftickets" placeholder="Number of single tickets">
+				</fieldset>
+				<fieldset>
+					<legend>Payment Method</legend>
+				</fieldset>
+				<fieldset>
+					<legend>Credit Card Information</legend>
+				</fieldset>
+				<fieldset>
+					<legend>Submit Your Order</legend>
+					</form>
+					<input type="submit" value="Submit">
+				</fieldset>
+				</form>
 			</main>
 			
 			<footer>
