@@ -62,9 +62,47 @@
 				</fieldset>
 				<fieldset>
 					<legend>Payment Method</legend>
+					<label>
+						<input type="radio" id="billme" name="payment" value="billme">Bill
+					</label>
+					<label>
+						<input type="radio" id="creditcard" name="payment" value="creditcard">Credit Card
+					</label>
 				</fieldset>
 				<fieldset>
 					<legend>Credit Card Information</legend>
+					<label for="cardtype">Card Type:</label>
+					<select name="cardtype">
+						<option value="visa">Visa</option>
+						<option value="mastercard">Master Card</option>
+						<option value="discover">Discover</option>
+					</select>
+					<label for="cardnumber">Card Number:</label>
+						<input type="text" name="cardnumber" id="cardnumber" placeholder="16 digits">
+					<label for="expirationdate">Expiration Date:</label>
+					<select name="month">
+						<option value="january">January</option>
+						<option value="february">February</option>
+						<option value="march">March</option>
+						<option value="april">April</option>
+						<option value="may">May</option>
+						<option value="june">June</option>
+						<option value="july">July</option>
+						<option value="august">August</option>
+						<option value="september">September</option>
+						<option value="october">October</option>
+						<option value="november">November</option>
+						<option value="december">December</option>
+					</select>
+					<select name="year">
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2025">2025</option>
+						<option value="2026">2026</option>
+						<option value="2027">2027</option>
+					</select>
 				</fieldset>
 				<fieldset>
 					<legend>Submit Your Order</legend>
