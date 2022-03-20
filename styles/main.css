@@ -265,3 +265,16 @@ input:required {
 input:valid {
 	border: 1px solid black;
 }
+
+input[type="submit"], [type="reset"] {
+	width: 10em;
+}
+
+#submitorder {
+	width: 610px;
+	text-align: center;
+}
+
+#submitorder legend {
+	text-align: left;
+}
