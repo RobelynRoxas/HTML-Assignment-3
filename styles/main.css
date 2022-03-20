@@ -204,8 +204,22 @@ fieldset input {
 	margin-bottom: 5px;
 }
 
-fieldset input[type="text"],input[type="tel"],input[type="email"] {
+fieldset input[type="text"],input[type="tel"],input[type="email"],input[type="number"] {
 	width: 15em;
+}
+
+select {
+	margin-left: 10px;
+	margin-bottom: 5px;
+	width: 15em;
+}
+
+#year {
+	width: 5em;
+}
+
+#month {
+	width: 7em;
 }
 
 #fieldmember label {
