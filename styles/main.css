@@ -199,7 +199,31 @@ fieldset label, input, select {
 	font-size: 90%;
 }
 
+fieldset input {
+	width: 15em;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
 #fieldmember label {
+	margin: auto;	
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+
+#orderinformation label {
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+
+#paymentmethod label {
+	margin-left: 35px;
+}
+
+#ccinformation label {
 	margin: auto;
 	display: inline-block;
 	width: 200px;
