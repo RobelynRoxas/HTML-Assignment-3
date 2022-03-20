@@ -183,98 +183,95 @@ footer p {
 	text-align: center;
 }
 
+/* Style for  Order form*/
 #fieldmember {
-	margin-top: 30px;
-}
-
-#method label {
-	width: 0px;
+	margin-top: 30px; 	/* margin from header (order event tickets) */
 }
 
 fieldset {
-	margin-bottom: 20px;
+	margin-bottom: 20px; 	/* margin between fieldsets - bottom part */
 }
 
 fieldset label, input, select {
-	font-size: 90%;
+	font-size: 90%;		/* default font size for fieldset label, input, select */
 }
 
 fieldset input {
-	margin-left: 10px;
-	margin-bottom: 5px;
+	margin-left: 10px;		/* margin of input box from the label */
+	margin-bottom: 5px;		/* margin below the input box and label */
 }
 
 fieldset input[type="text"],input[type="tel"],input[type="email"],input[type="number"] {
-	width: 15em;
+	width: 15em;		/* size for input box */
 }
 
 select {
-	margin-left: 10px;
-	margin-bottom: 5px;
-	width: 15em;
+	margin-left: 10px;		/* margin of select option on left side */
+	margin-bottom: 5px;		/* margin of select option on bottom */
+	width: 15em;		/* width of select option */
 }
 
 #year {
-	width: 5em;
+	width: 5em;		/* width of year select option */
 }
 
 #month {
-	width: 7em;
+	width: 7em;		/* width of month select option */
 }
 
 #fieldmember label {
-	margin: auto;	
-	display: inline-block;
-	width: 200px;
-	text-align: right;
+	margin: auto;		/* margin in fieldset */
+	display: inline-block;		/* display inline-block */
+	width: 200px;		/* width inside the fieldset */
+	text-align: right;		/* align text to the right */
 }
 
 #orderinformation label {
-	margin: auto;
-	display: inline-block;
-	width: 200px;
-	text-align: right;
+	margin: auto;		/* margin in fieldset */
+	display: inline-block;		/* display inline-block */
+	width: 200px;		/* width inside the fieldset */
+	text-align: right;		/* align text to the right */
 }
 
 #payment_method input {
-	margin-left: 45px;
+	margin-left: 45px;		/* margin from left from radio buttom */
 }
 
 input[type="radio"] {
-	margin-right: 10px;
+	margin-right: 10px;		/* margin from radio button going to right*/
 }
 
 #ccinformation label {
-	margin: auto;
-	display: inline-block;
-	width: 200px;
-	text-align: right;
+	margin: auto;		/* margin in fieldset */
+	display: inline-block;		/* display inline-block */
+	width: 200px;		/* width inside the fieldset */
+	text-align: right;		/* align text to the right */
 }
 
 legend { 
-	margin-bottom: 10px;
-	font-weight: bold;
-	color: grey;
-	font-size: 85%;
+	margin-bottom: 10px;	/* margin from legend */
+	font-weight: bold;		/* set font weight for legend - bold */
+	color: grey;		/* font color - gray */
+	font-size: 85%;		/* font size at 85% */
 }
 
 input:required {
-	border: 2px solid orange;
+	border: 2px solid orange;		/* set border style in inputs with required fields */
 }
 
 input:valid {
-	border: 1px solid black;
+	border: 1px solid black;		/* set border style once input is valid */
 }
 
 input[type="submit"], [type="reset"] {
-	width: 10em;
+	width: 10em;		/* input size for submit and reset */
 }
 
 #submitorder {
-	width: 610px;
-	text-align: center;
+	width: 610px;		/* width size for fieldset */
+	text-align: center;		/* align the text in center */
 }
 
 #submitorder legend {
-	text-align: left;
-}
+	text-align: left;		/* align legend to left for submit order fieldset */
+} 
