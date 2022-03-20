@@ -182,3 +182,34 @@ footer p {
 	font-size: 80%;
 	text-align: center;
 }
+
+#fieldmember {
+	margin-top: 30px;
+}
+
+#method label {
+	width: 0px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}
+
+fieldset label, input, select {
+	font-size: 90%;
+}
+
+#fieldmember label {
+	margin: auto;
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+}
+
+legend { 
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: grey;
+	font-size: 85%;
+}
+
