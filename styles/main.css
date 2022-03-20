@@ -200,9 +200,12 @@ fieldset label, input, select {
 }
 
 fieldset input {
-	width: 15em;
 	margin-left: 10px;
 	margin-bottom: 5px;
+}
+
+fieldset input[type="text"],input[type="tel"],input[type="email"] {
+	width: 15em;
 }
 
 #fieldmember label {
@@ -219,8 +222,12 @@ fieldset input {
 	text-align: right;
 }
 
-#paymentmethod label {
-	margin-left: 35px;
+#payment_method input {
+	margin-left: 45px;
+}
+
+input[type="radio"] {
+	margin-right: 10px;
 }
 
 #ccinformation label {
