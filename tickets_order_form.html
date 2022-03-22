@@ -38,9 +38,10 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<!-- The form starts here... -->
-				<form name="order_form" id="order_form" action="place_order.html" method="post">
-				<fieldset id="fieldmember">
-					<legend>Member Information</legend>
+				<form name="order_form" id="order_form" action="place_order.html" method="post"> <!-- for starts in this line -->
+				<fieldset id="fieldmember">		<!-- start fieldset for member information -->
+					<legend>Member Information</legend>		<!-- legend in fieldset for member information -->
+					<!-- input box and labels for member information -->
 					<label for="email">Email:</label>
 					<input type="email" id="email" name="email" required autofocus><br>
 					<label for="fname">First Name:</label>
@@ -57,10 +58,11 @@
 					<input type="text" id="postalcode" name="postalcode" placeholder="6 characters" pattern="[a-zA-Z0-9]{6}" required><br>
 					<label for="phonenumber">Phone Number:</label>
 					<input type="tel" id="phonenumber" name="phonenumber" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
-				</fieldset>
-				<fieldset id="orderinformation">
-					<legend>Ordering Information</legend>
-					<label for="event">Event:</label>
+				</fieldset>		<!-- end fieldset for member information -->
+				<fieldset id="orderinformation">	<!-- start fieldset for ordering information -->
+					<legend>Ordering Information</legend>		<!-- legend in fieldset for ordering information -->
+					<!-- dropdown and labels for ordering information -->
+					<label for="event">Event:</label>	
 					<select name="event">
 						<option value="cookie">Cookie Decoration Contest</option>
 						<option value="tree">Tree Decoration Contest</option>
@@ -73,31 +75,36 @@
 						<option value="donor">Donor Package</option>
 						<option value="single">Single Tickets</option>
 					</select><br>
+					<!-- label and input box for ordering information for number of tickets -->
 					<label for="numberoftickets">Number of Tickets:</label>
 					<input type="number" name="numberoftickets" id="numberoftickets" placeholder="Number of single tickets">
-				</fieldset>
-				<fieldset id="payment_method">
-					<legend>Payment Method</legend>
+				</fieldset>		<!-- end fieldset for ordering information -->
+				<fieldset id="payment_method">		<!-- start fieldset for payment method -->
+					<legend>Payment Method</legend>		<!-- legend in fieldset for payment method -->
+					<!-- radio buttons for bill and credit card -->
 					<label>
 						<input type="radio" id="billme" name="payment" value="billme">Bill
 					</label>
 					<label>
 						<input type="radio" id="creditcard" name="payment" value="creditcard" required>Credit Card
 					</label>
-				</fieldset>
-				<fieldset id="ccinformation">
-					<legend>Credit Card Information</legend>
+				</fieldset>		<!-- end fieldset for payment information -->
+				<fieldset id="ccinformation">		<!-- start fieldset for credit card information -->
+					<legend>Credit Card Information</legend>		<!-- legend in fieldset for credit card information -->
+					<!-- label and options for card type -->
 					<label for="cardtype">Card Type:</label>
-					<select name="cardtype">
+					<select name="cardtype">	
 						<option value="visa">Visa</option>
 						<option value="mastercard">Master Card</option>
 						<option value="discover">Discover</option>
 					</select><br>
-					<label for="cardnumber">Card Number:</label>
-						<input type="text" name="cardnumber" id="cardnumber" placeholder="16 digits" pattern="[0-9]{16}" required>
+					<!-- label and input box for card number -->
+					<label for="cardnumber">Card Number:</label>	
+						<input type="text" name="cardnumber" id="cardnumber" placeholder="16 digits" pattern="[0-9]{16}" required> 
 						<br>
+					<!-- label and select option for month -->	
 					<label for="expirationdate">Expiration Date:</label>
-					<select name="month" id="month">
+					<select name="month" id="month">	
 						<option value="january">January</option>
 						<option value="february">February</option>
 						<option value="march">March</option>
@@ -111,7 +118,8 @@
 						<option value="november">November</option>
 						<option value="december">December</option>
 					</select>
-					<select name="year" id="year">
+					<!-- label and select option for year -->
+					<select name="year" id="year">		
 						<option value="2021">2021</option>
 						<option value="2022">2022</option>
 						<option value="2023">2023</option>
@@ -120,16 +128,15 @@
 						<option value="2026">2026</option>
 						<option value="2027">2027</option>
 					</select>
-				</fieldset>
-				<fieldset id="submitorder">
-					<legend>Submit Your Order</legend>
+				</fieldset>		<!-- end fieldset for credit card information -->
+				<fieldset id="submitorder">		<!-- start fieldset of submit and reset buttons -->
+					<legend>Submit Your Order</legend>	<!-- legend in fieldset for submit your order  -->
 					</form>
-					<input type="submit" value="Submit">
-					<input type="reset"	value="Reset Fields">
-				</fieldset>
+					<input type="submit" value="Submit">		<!-- submit button -->
+					<input type="reset"	value="Reset Fields">	<!-- reset all fields -->
+				</fieldset>		<!-- end fieldset of submit and reset buttons -->
 				</form>
 			</main>
-			
 			<footer>
 				<p>&copy; 2021 New Year Central. Created by Robelyn Roxas.</p>
 			</footer>
